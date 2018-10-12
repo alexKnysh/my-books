@@ -1,4 +1,5 @@
 import { RouteConfig } from 'react-router-config';
+import { HOME_PATH } from '../constants';
 import { App } from '../containers/App';
 import { HomePage } from '../containers/Home';
 
@@ -7,7 +8,7 @@ export default {
   component: App,
   routes: [
     {
-      path: '/',
+      path: HOME_PATH,
       component: HomePage
     }
   ] as RouteConfig[]

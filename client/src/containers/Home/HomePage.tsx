@@ -1,12 +1,11 @@
 import * as React from 'react';
+import Header from './Header';
 
 class HomePage extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <header>
-          <h1>Header</h1>
-        </header>
+        <Header />
         <div>123</div>
       </React.Fragment>
     );

@@ -6435,6 +6435,11 @@ pretty-format@^22.4.0, pretty-format@^22.4.3:
     ansi-regex "^3.0.0"
     ansi-styles "^3.2.0"
 
+primeflex@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-1.0.0-rc.1.tgz#8f3555522238870500baa8587e360095261fff5f"
+  integrity sha512-JVrQE0ulyP0UJ3Rn8UI1RjmpHU/f4CIm7BI18xoMLlUriAViiykFMmtDTvUC0AZWHl4YhgEvHJIZ7EERxER2cg==
+
 primeicons@^1.0.0-beta.10:
   version "1.0.0-beta.10"
   resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-1.0.0-beta.10.tgz#b1a27a8a279c0b28d4bd537a29709b39cfebbd9f"
