@@ -20,6 +20,7 @@
     "no-submodule-imports": false,
     "no-this-assignment": false,
     "object-literal-sort-keys": false,
+    "no-object-literal-type-assertion": false,
     "ordered-imports": false,
     "prefer-for-of": false,
     "prettier": true,
