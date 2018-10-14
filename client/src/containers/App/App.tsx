@@ -7,11 +7,11 @@ import { PublicRoute } from '../../routes';
 class App extends React.Component {
   public render() {
     return (
-      <div>
+      <React.Fragment>
         {(PublicRoute.routes as RouteConfig[]).map(routeItems => (
           <RenderRoute key={routeItems.path} {...routeItems} />
         ))}
-      </div>
+      </React.Fragment>
     );
   }
 }
